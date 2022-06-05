@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PRODS.PAGE</title>
+  <link rel="icon" type="image/x-icon" href="./favicon.ico">
+  <link rel="stylesheet" href="./style.css">
+  <script src="prods_master.js"></script>
+  <script src="prods_sorted.js"></script>
+  <script src="scrambler.js"></script>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+</head>
+<body onload="gen()">
+<div id="box">
+  <hr/>
+  <h1>PRODS!</h1>
+  <a id="ytl" href="" target="_blank">
+    <p>CLICK HERE TO GO TO YOUTUBE</p>
+  </a>
+  <select onchange="gen()" id="type">
+    <option value="all">all</option>
+    <option value="32b">32b</option>
+    <option value="64b">64b</option>
+    <option value="128b">128b</option>
+    <option value="256b">256b</option>
+    <option value="512b">512b</option>
+    <option value="1k">1k</option>
+    <option value="4k">4k</option>
+    <option value="8k">8k</option>
+    <option value="16k">16k</option>
+    <option value="32k">32k</option>
+    <option value="40k">40k</option>
+    <option value="64k">64k</option>
+    <option value="80k">80k</option>
+    <option value="96k">96k</option>
+    <option value="100k">100k</option>
+    <option value="128k">128k</option>
+    <option value="256k">256k</option>
+    <option value="artpack">artpack</option>
+    <option value="bbstro">bbstro</option>
+    <option value="cracktro">cracktro</option>
+    <option value="demo">demo</option>
+    <option value="demopack">demopack</option>
+    <option value="demotool">demotool</option>
+    <option value="dentro">dentro</option>
+    <option value="diskmag">diskmag</option>
+    <option value="fastdemo">fastdemo</option>
+    <option value="game">game</option>
+    <option value="intro">intro</option>
+    <option value="invitation">invitation</option>
+    <option value="liveact">liveact</option>
+    <option value="musicdisk">musicdisk</option>
+    <option value="procedural_graphics">procedural_graphics</option>
+    <option value="report">report</option>
+    <option value="slideshow">slideshow</option>
+    <option value="votedisk">votedisk</option>
+    <option value="wild">wild</option>
+  </select>
+  <button onclick="gen()">Shuffle!</button>
+  <hr/>
+</div>
+
+<div id="notes">
+  <p>Made by <a href="https://vran.as/@Alex">BreakDecks</a>.</p>
+  <h6>Made possible with data collected from<br/><a id="pouet" href="https://pouet.net/" target="_blank"><img src="data:image/gif;base64, R0lGODlhWAAfAKIAAHeh0qnU+DNdkVF7svz8/AAAAJzU/7Pe/yH5BAAAAAAALAAAAABYAB8AAAP/aLrc/ubIA2ebOOvNNfzgYj2Y2J1oF65kaaZwDAxAxt5vvEV6BwgDG+7WKxVRgYFAwJMMiRSFUOpqHjWzpfXJipoqlisnuRQEqlzwxbtWiZUDZW2UVjPYDvHpNwj85k51LYE8IHocfGd/Z4SCOR4fNnoGi5RLfXSOKYZ0V2Q1WZeMeE87j2BGR3yUSmVLo45bg6hifnEABq2ur5lpaHdomwAASXGjtkChu2WAsYWRJ022fa25QAfTy9rMvb6kwDBkfTNBxT/b6EvNsY15OgYCxAe35+n2Zk4F+vsFBvz/AAMC9HIiwKd69mjAQcfIH4GHD/dBJKAvYgGLEylmpNjG+mAABcN0uTpHI2SrICWU8aJwkWLLly8xanQZcebFfrlKUjK5bAA8IAEu2ZCzYRg3ljJh1qRpE6BFnGXgiCyp7kAZa/gyKBmV4dwch0yVNl0accJLC3CG+bkkzxo1dWltrCx6DWnYpHhd7jtwdsIwHnwAYWu1Nt45rj8Fa0jyVazjvBUp8i1Ll4kRwl69OsmCKQZYiJFDQz770t9egRPIMMnMtp7iTTAl3p0dejLH2GQLYPD6M84uGlw9l1bwmDbppxpx6wNEUmRUYsGF31wQGfnE6hFNJ0+utMA9w1bEENfHYKBAgOPP/1sIpKRabNGvrPjV5luO8Id6JAAAOw==" alt="Pouët.net"></a></h6>
+</div>
+
+</body>
+</html>

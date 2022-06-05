@@ -1,0 +1,19 @@
+body {
+  background-color: darkgray;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+div#title {
+  text-align: center;
+  margin: auto;
+}
+div#box {
+  background-color: gray;
+  text-align: center;
+  border-style: inset;
+  width: 300px;
+  margin: auto;
+}
+div#notes {
+  text-align: center;
+  margin: auto;
+}
